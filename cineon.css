@@ -1,0 +1,344 @@
+
+.custom-body {background-color: #1D1830;  font-family: 'Poppins', sans-serif;}
+
+
+
+/*Barra navegadora*/
+.custom-icon { color: #D9D9D9; margin-bottom: 45%}
+.custom-icon:hover {color:#FC3279 }
+.navbar-nav .nav-item a.nav-link,
+.navbar-nav .nav-item a.btn {font-size: 20px;}
+.navbar-nav li.nav-item a.nav-link:hover,
+.navbar-nav li.nav-item a.dropdown-item:hover {border-bottom: 2px solid  #FC3279 ;}
+.navbar-nav .nav-item a.nav-link,
+.navbar-nav .nav-item {color: #D9D9D9; padding: 10px}
+.navbar {position: fixed}
+.custom-navbar {background-color: #120E1E; padding: 10%}
+.custom-toggler {background-color: #FC3279 !important;}
+
+
+/*Carousel principal*/
+#carouselExampleCaptions {
+    max-width: 95%;
+    margin: 0 auto;
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+	margin-top: 3%;
+margin-bottom: 5%}
+.carousel-inner {
+	border-radius: 10px;}
+.carousel-item img {
+    width: 80%; 
+    height: 470px;}
+
+
+/*Botones del principio*/
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 5%;
+margin-bottom: 5%;
+margin-top: 3%}
+.custom-button {
+    padding: 10px 50px;
+    background: linear-gradient(to right,  #DCA5FC, #FC3279);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+font-weight: 500}
+.custom-button:hover {color:  #1D1830;}
+
+
+
+/*Seleccion de peliculas*/
+.elegirnos {align-content: center;
+margin-top: 8%}
+.elegirnos h1 {text-align: center;
+font-size: 200%;
+font-weight: 500;
+color: #D9D9D9 }
+
+/*TITULOS DE CARTELERA, ESTRENO, ETC*/
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+color: #D9D9D9;
+margin-left: 5%;
+margin-top: 5%}
+.text-container1 {
+	text-align: left;}
+.text-container1 h1 {
+	font-size: 170%;
+    margin: 0 0 10px;}
+.text-container1 a {
+    font-size: 16px;
+    margin: 0;
+text-decoration: none;
+	color: #D9D9D9;}
+.text-container1 a:hover {color:  #FC3279}
+
+
+/*LISTA PELICULAS*/
+.fila-contenedor2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+margin-left: 6%;
+ margin-right: 2%;
+margin-bottom: 5%}
+.imagen-contenedor2 {
+  position: relative;
+  overflow: hidden;
+  width: 15%;
+  margin-right: 2%; 
+  box-shadow: 0 0 20px rgba(217, 217, 217, 0.3);
+ border-radius: 10px;
+transition: transform 400ms}
+.imagen-contenedor2:hover {transform: scale(1.3)}
+.imagen2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s;
+  border-radius: 10px;
+  margin-right: 2%; 
+  box-shadow: 0 0 20px rgba(217, 217, 217, 0.3);}
+.contenidoo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  opacity: 0; 
+  transition: opacity 0.3s; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+margin-right: 1%}
+.imagen-contenedor2:hover .contenidoo {
+  opacity: 1; }
+.contenidoo h3 {
+  color:  #D9D9D9;
+  font-size: 10px;
+  margin-bottom: 10px;
+font-weight: 500;
+text-align: right;
+align-content: right;
+justify-content: flex-end;
+margin-right: 5%}
+.contenidoo p {
+  color:  #D9D9D9;
+  font-size: 10px;
+  margin-bottom: 10px;
+font-weight: 300;
+width: 80%;
+text-align: right;
+margin-right: 5%}
+
+
+/* COMIDA */
+.fondocomida {background-color: #120E1E;
+    padding: 10px;
+width: 90%;
+margin-left: 5%;
+border-radius:30px;
+color: #D9D9D9;
+margin-bottom: 5%;
+margin-top: 8%;}
+.text-container {
+    text-align:left;
+    margin-left: 20px;color: #D9D9D9;
+	font-size: 130%;
+	margin-top: 1%;
+	margin-bottom: 1%}
+/*texto a la derecha */
+.right-align {
+    text-align: left;}
+/* Estilo para la fila de imágenes */
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+margin-bottom: 3%}
+/*imagen y su contenido */
+.image-wrapper {
+    flex: 0 0 calc(20% - 10px); 
+    margin: 5px; 
+    text-align: center;}
+/*fondo ovalado de las imágenes */
+.image-bg {
+    background-color: #1D1830; 
+    border-radius: 15%;
+    padding: 10px;}
+/*imágenes */
+.image-bg img {
+    max-width: 100%;
+    border-radius: 50%;}
+/*botones redondos */
+.button-wrapper {
+    margin-top: 10px;
+color: #FC3279}
+.button-wrapper button {
+    color: #D9D9D9;}
+.btn-round {
+    border-radius: 50px;
+    margin: 5px;color: #D9D9D9}
+/*texto debajo de los botones */
+.image-wrapper p {
+    margin: 0;}
+
+
+/*Descuentos*/
+.publicidad {
+display: flex;
+justify-content: space-between;
+align-items: center;}
+.publicidad img {
+margin: 0 10%;
+max-width: 27%;
+margin-top: 5%;
+margin-bottom: 5%;
+box-shadow: 0px 0px 10px 2px rgba(18, 14, 30, 0.5);
+border-radius: 7px}
+
+
+
+
+/* FOOTER*/
+.site-footer {
+    background-color:#1D1830; 
+    color: #D9D9D9; 
+    padding: 20px;
+    text-align: center;}
+/* Línea fina*/
+.footer-line {
+    width: 80%; 
+    margin: 0 auto 20px;
+    border-top: 1px solid #D9D9D9;}
+/* Iconos de redes sociales */
+.social-icons {
+    margin-bottom: 20px;}
+.social-icons a {
+    margin: 0 10px; 
+    text-decoration: none;
+    color: #D9D9D9;}
+.social-icons a:hover {color:  #FC3279}
+/*footer titulos*/
+.footer-titles {
+    margin-bottom: 20px;}
+.footer-titles a {
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #D9D9D9;
+    font-weight: bold;
+font-size: 20px}
+.footer-titles a:hover {color:  #FC3279}
+/*copyright*/
+.copy p {
+    color: #ACACAC; 
+    font-size: 12px; 
+    margin-top: 10px; 
+    text-align: center;}
+/* Foto logo */
+.footer-image {
+    float: right;
+    margin-left: 20px;}
+.footer-image img {
+    max-width: 100px;
+    height: auto;}
+
+
+
+@media (max-width: 768px) {
+.custom-icon {margin-bottom: 1rem; }
+.navbar-nav .nav-item a.nav-link,
+.navbar-nav .nav-item a.btn {font-size: 16px; }
+.custom-navbar {background-color: #120E1E; 
+padding: 1rem;}
+
+/*tres botones*/
+.button-container {display: flex;
+flex-direction: column;}
+.custom-button {margin: 0.5rem 0; }
+
+/*titulo seleccion*/	
+.elegirnos {display: none}
+	
+/*titulos*/
+ .content-section {display: flex;
+flex-direction: column;
+align-items:flex-start; 
+justify-content:flex-start; 
+height: 100vh; 
+margin-left: 6%}
+.text-container1 {text-align: left;}
+.text-container1 h1 {font-size: 150%}
+	
+/*peliculas*/
+.fila-contenedor2 {display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
+.imagen-contenedor2 {width: calc(50% - 10px);  
+margin-bottom: 20px;}
+ .imagen-contenedor2:hover {transform: none;}
+	
+/*comida*/
+  .fondocomida {display: flex;
+flex-direction: column; 
+align-items: center;
+text-align: center; 
+border-radius: none;}
+.text-container {align-content: center;
+text-align: center;
+font-size: 100%;
+justify-content: center}
+.image-container {display: flex;
+flex-direction: column; 
+align-items: center; 
+text-align: center; }
+.image-wrapper {margin-bottom: 20px; 
+max-width: 80%;
+flex: none;
+align-items: center;
+text-align: center;
+margin-left: 9%}
+
+
+.footer-titles a {font-size: 10px}
+.footer-image {
+align-items: center;margin-left: 20px;}
+.footer-image img {
+    max-width: 70px;
+    height: auto;}
+
+.publicidad {display: flex;
+flex-direction: column;
+align-items: center; 
+max-width: none}
+.publicidad img {width: 60%;
+margin-bottom: 10px; 
+max-width: none}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
