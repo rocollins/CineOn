@@ -197,6 +197,10 @@ color: #FC3279}
 /*texto debajo de los botones */
 .image-wrapper p {
     margin: 0;}
+.btn {
+    background-color: transparent;
+}
+
 
 
 /*Descuentos*/
@@ -257,6 +261,51 @@ font-size: 20px}
 .footer-image img {
     max-width: 100px;
     height: auto;}
+
+
+
+/*SECCION PELICULAS*/
+
+.search-bar {
+    width: 800px;
+    margin: 50px auto;
+    background: linear-gradient(to right, #FC3279, #DCA5FC);
+    border-radius: 25px;
+    overflow: hidden;}
+.search-bar form {display: flex;}
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+margin-left: 4%;
+color: white}
+.search-bar button {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #FC3279, #DCA5FC);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;}
+.search-bar button:hover {color:  #FC3279;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -328,12 +377,7 @@ align-items: center;
 max-width: none}
 .publicidad img {width: 60%;
 margin-bottom: 10px; 
-max-width: none}
-	
-	
-	
-}
-
+max-width: none}}
 
 
 
