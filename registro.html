@@ -51,20 +51,23 @@
 	
 <div class="form-container1">
 	<p class="title1">Bienvenido</p>
-	<form class="form1">
+	 <form action="registrar.php" method="post" class="form1">
 		<div class="input-group1">
-			<label for="username">Mail</label>
-			<input type="text" name="mail" id="mail" placeholder="">
+<label for="nombre">Nombre de usuario:</label>
+        <input type="text" name="nombre" required>
+			<br>
 		</div>
 		<div class="input-group1">
-			<label for="password">Usuario</label>
-			<input type="text" name="username" id="username" placeholder="">
+			 <label for="email">email</label>
+        <input type="email" name="email" required>
+			<br>
 		</div>
 		<div class="input-group1" style="margin-bottom: 7%">
-			<label for="mail">Contraseña</label>
-			<input type="password" name="password" id="password" placeholder="">
+			 <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" required>
+			<br>
+		    <input class="sign1" type="submit" value="Registrarse">
 		</div>
-		<button class="sign1"><a href="miperfil.html">Registrate</a></button>
 	</form>
 	<p class="signup1" style="margin-top: 7%">¿Ya tenes cuenta?
 		<a rel="noopener noreferrer" href="registrate.html" class="">Inicia Sesión</a>
